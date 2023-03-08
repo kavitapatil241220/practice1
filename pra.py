@@ -3,7 +3,9 @@ from dataclasses import dataclass
 
 @dataclass
 class InventoryItem:
-    """Class for keeping track of an item in inventory."""
+    """Class for keeping track of an item in inventory.
+    hello here i did changes  to check."""
+
     name: str
     unit_price: float
     quantity_on_hand: int = 0
